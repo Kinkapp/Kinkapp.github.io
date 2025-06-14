@@ -10,6 +10,10 @@ const ControlPanel = () => {
     setControls(controlsData);
   }, []);
 
+  useEffect(() => {
+    document.title = "Wikipedea";
+  }, []);
+
   const handleToggle = (ctrl, id) => {
     setControls(prev =>
       prev.map(ctrl =>
