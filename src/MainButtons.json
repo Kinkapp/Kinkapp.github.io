@@ -665,6 +665,16 @@
     "instruction": "You wet the bed every night, leaving you embarrassed and needing extra care."
   },
   {
+    "id": "wear_pullups",
+    "text": "Must always wear a pull-up",
+    "type": "button",
+    "category": "Physical",
+    "active": false,
+    "quickAccess": false,
+    "tags": ["physical", "diaper", "pull-ups", "baby"],
+    "instruction": "You will wear a pull-up and cannot remove them without permission."
+  },
+  {
     "id": "shiver_command",
     "text": "Shiver on command",
     "type": "button",
